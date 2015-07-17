@@ -1,0 +1,191 @@
+.col-md-4{
+	text-align: center;
+}
+
+body{
+	background-image:url(http://www.maikbentlage.nl/wp-content/uploads/2013/12/Blackjack-tafel.png);
+	background-position: center top;
+}
+
+section{
+		position:relative;   /*ALWAYS DO THIS!!!*/
+}
+
+#play{
+		padding:50px;
+}
+
+/*position for player labels initally*/
+.dealer{
+	visibility: hidden;
+}
+
+.player{
+	visibility: hidden;
+}
+
+
+/*position for player labels after board set up */
+.moveAiOnscreen {
+	position: fixed;
+    top: 0;
+    background-color: rgb(51, 122, 183);
+  	color: white;
+  	padding: 5px;
+  	font-size: 22px;
+  	border: 3px solid white;
+  	border-radius: 10px;
+  	font-family: monospace;
+}
+
+.movePlayerOnscreen {
+	position: fixed;
+    bottom: 0;
+    background-color: rgb(51, 122, 183);
+  	color: white;
+  	padding: 5px;
+  	font-size: 22px;
+  	border: 3px solid white;
+  	border-radius: 10px;
+  	font-family: monospace;
+}
+
+/*controls*/
+.controls{
+  	visibility: hidden;
+}
+
+.moveControlsOnScreen{
+	position: fixed;
+    bottom: 0;
+    right:0;
+    background-color: rgb(255, 255, 255);
+  	border: 3px solid rgb(254, 255, 254);
+  	border-radius: 10px;
+}
+
+#hit{
+	background-color: rgb(237, 75, 0);
+}
+
+#stand{
+	background-color: rgb(0, 176, 17);
+  	color: white;
+}
+
+/*styling the deck*/
+.deck-of-cards img{
+  	position: fixed;
+	bottom:-1000px;
+}
+
+.edge{
+	position: fixed;
+	bottom:-1000px;
+}
+
+
+/*making a deck appear*/
+
+.deckAfter img{
+	position: absolute;
+  	left: 11%;
+  	right: 0px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	z-index: 100;
+}
+
+.edgeAfter{
+	display: inline !important;
+  	position: relative;
+  	-webkit-animation-delay: 1.5s;
+}
+
+/*Cards*/
+.player-cards{
+  	visibility: hidden;
+}
+
+.dealer-cards{
+	visibility: hidden;
+}
+
+/*styling cards*/
+.dealer-cardsAfter{
+	position: absolute;
+  	top: 0;
+  	margin-top: 23%;
+  	-webkit-animation-delay: 2.5s;
+}
+
+.player-cardsAfter{
+	position: absolute;
+  	bottom: 0;
+  	margin-bottom: 23%;
+  	-webkit-animation-delay: 2.5s;
+}
+
+/*Styling Score*/
+.game-scores{
+	  width: 50%;
+}
+
+.dealer-score{
+	visibility: hidden;
+}
+.player-score{
+	visibility: hidden;
+}
+.dealer-scoreAfter{
+  background-color: rgb(51, 122, 183);
+  color: white;
+  padding: 5px;
+  font-size: 22px;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-family: monospace;
+  margin-bottom:3px;
+}
+.player-scoreAfter{
+  background-color: rgb(51, 122, 183);
+  color: white;
+  padding: 5px;
+  font-size: 22px;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+/*Money*/
+.player-money{
+	visibility: hidden;
+}
+
+.player-moneyAfter{
+  background-color: rgb(51, 122, 183);
+  color: white;
+  padding: 5px;
+  font-size: 22px;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-family: monospace;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#amount{
+	color:rgb(237, 75, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
