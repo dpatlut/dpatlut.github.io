@@ -5,6 +5,7 @@
 body{
 	background-image:url(http://www.maikbentlage.nl/wp-content/uploads/2013/12/Blackjack-tafel.png);
 	background-position: center top;
+
 }
 
 section{
@@ -14,6 +15,12 @@ section{
 #play{
 		padding:50px;
 }
+
+.play-button{
+	visibility: hidden;
+}
+
+
 
 /*position for player labels initally*/
 .dealer{
@@ -62,6 +69,7 @@ section{
     background-color: rgb(255, 255, 255);
   	border: 3px solid rgb(254, 255, 254);
   	border-radius: 10px;
+  	-webkit-animation-delay: 3.0s;
 }
 
 #hit{
@@ -116,14 +124,27 @@ section{
 	position: absolute;
   	top: 0;
   	margin-top: 23%;
-  	-webkit-animation-delay: 2.5s;
+  	-webkit-animation-delay: 1.5s;
+}
+.dealer-cardsAfter img{
+	padding-right: 5px;
+	margin-bottom: 25px;
+}
+
+#flip{
+	  position: absolute;
+  	  left: 77px;
 }
 
 .player-cardsAfter{
 	position: absolute;
   	bottom: 0;
   	margin-bottom: 23%;
-  	-webkit-animation-delay: 2.5s;
+  	-webkit-animation-delay: 1.5s;
+}
+
+.player-cardsAfter img{
+	padding-right: 5px;
 }
 
 /*Styling Score*/
@@ -180,10 +201,48 @@ section{
 }
 
 
+.bankroll{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+}
 
 
+.bets{
+	visibility: hidden;
+}
+
+.betsAfter{
+
+}
+
+#moneys{
+	text-align: center;
+}
+
+#bet-amount{
+	text-align: center;
+}
 
 
+.game-bet{
+	visibility: hidden;
+}
+
+.game-betAfter{
+  background-color: rgb(51, 122, 183);
+  color: white;
+  padding: 5px;
+  font-size: 22px;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-family: monospace;
+  position: relative;
+  width: 50%;
+  margin-top: 3px;
+
+}
 
 
 
