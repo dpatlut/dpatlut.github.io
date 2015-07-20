@@ -401,7 +401,6 @@ var reset = function(){
 		console.log("reset");
 		$('.betsAfter').addClass('animated fadeIn');
 		$('.betsAfter').removeClass('fadeOut');
-		console.log("here");
 	}
 }//end big Play function
 
