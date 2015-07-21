@@ -3,6 +3,6 @@
 
 
 #Missing Functionality
--implement ace switch
--reset of the game
--remove cards from deck after each game
+1.implement ace switch
+2.reset of the game
+3.remove cards from deck after each game
