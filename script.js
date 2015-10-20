@@ -67,58 +67,59 @@ var createCards = function(){
 
 //---------------------------------------------------------------//IMAGES
 var images = [
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/1.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/2.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/3.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/4.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/5.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/6.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/7.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/8.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/9.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/10.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/11.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/12.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/13.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/14.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/15.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/16.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/17.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/18.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/19.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/20.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/21.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/22.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/23.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/24.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/25.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/26.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/27.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/28.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/29.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/30.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/31.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/32.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/33.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/34.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/35.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/36.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/37.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/38.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/39.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/40.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/41.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/42.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/43.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/44.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/45.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/46.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/47.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/48.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/49.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/50.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/51.png",
-"/Users/dpatlut/Desktop/Project %231/dpatlut.github.io/Cards/52.png"]
+"img/1.png",
+"img/2.png",
+"img/3.png",
+"img/4.png",
+"img/5.png",
+"img/6.png",
+"img/7.png",
+"img/8.png",
+"img/9.png",
+"img/10.png",
+"img/11.png",
+"img/12.png",
+"img/13.png",
+"img/14.png",
+"img/15.png",
+"img/16.png",
+"img/17.png",
+"img/18.png",
+"img/19.png",
+"img/20.png",
+"img/21.png",
+"img/22.png",
+"img/23.png",
+"img/24.png",
+"img/25.png",
+"img/26.png",
+"img/27.png",
+"img/28.png",
+"img/29.png",
+"img/30.png",
+"img/31.png",
+"img/32.png",
+"img/33.png",
+"img/34.png",
+"img/35.png",
+"img/36.png",
+"img/37.png",
+"img/38.png",
+"img/39.png",
+"img/40.png",
+"img/41.png",
+"img/42.png",
+"img/43.png",
+"img/44.png",
+"img/45.png",
+"img/46.png",
+"img/47.png",
+"img/48.png",
+"img/49.png",
+"img/50.png",
+"img/51.png",
+"img/52.png"
+]
 
 
 //---------------------------------------------------------------//DECK with pairing - deck
@@ -350,7 +351,7 @@ var compareWinners = function(){
 			  	}
 }//end compare winners function
 
-///WHERE ALL THE CRAZY SHIT HAPPENS - WHO WINS AND WHAT HAPPENS? , also must reset after the winner
+// WHO WINS AND WHAT HAPPENS? , also must reset after the winner
 var isWinner = function(who){
 	if (who===player){
 			//update score
@@ -399,15 +400,9 @@ var draw = function(){
 
 var reset = function(){
 		console.log("reset");
+		// $('.player-cardsAfter').empty();
+		// $('.dealer-cardsAfter').empty();
 		$('.betsAfter').addClass('animated fadeIn');
 		$('.betsAfter').removeClass('fadeOut');
 	}
 }//end big Play function
-
-
-
-
-
-
-
-
